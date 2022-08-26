@@ -1,0 +1,25 @@
+
+<html>
+    <head>
+        <title>Java Script</title>
+        <script>
+            function ageCalculator() {
+                var birthday = document.getElementById("DOB").value.substring(0,4);
+                var date = new Date().getFullYear();
+                var age = date - birthday;
+
+                if(age < 13){
+                    alert("You are not allowed to enter this site");
+                }
+            }
+        </script>       
+    </head>
+    <body >
+        <h1>Age Validator</h1>
+        <form action="">
+            Birthday: <input type="date" name="birthday" id="DOB">
+            <button type="submit" onclick = "ageCalculator()"> Enter </button>
+        </form>
+      
+    </body>
+</html>
