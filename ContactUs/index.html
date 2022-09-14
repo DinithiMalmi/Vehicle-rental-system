@@ -55,7 +55,40 @@
                                 </p>
                     </div>  
                     <div class="column" style="background-color:#bbb;">
-                        
+                        <div class="container">
+                            <form action="action_page.php">
+                                <label for="title">Title</label>
+                                <select name="title" id="title">
+                                    <option value="rev">Rev.</option>
+                                    <option value="dr">Dr.</option>
+                                    <option value="mr">Mr.</option>
+                                    <option value="mrs">Mrs.</option>
+                                    <option value="miss">Miss.</option>                                   
+                                  </select>
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Please enter your first name..">
+                          
+                              <label for="lname">Last Name</label>
+                              <input type="text" id="lname" name="lastname" placeholder="Please enter your last name..">
+                              <label for="email">Your Email</label>
+                              <input type="text" id="email" name="email" placeholder="name@email.com">
+                              <label>Your Telephone Number</label>
+                              <input type="text" id="telephoneNumber" name="telephonNumber">
+                              <label for="hire">Basis of Hire</label>
+                                <select name="hire" id="hire">
+                                    <option value="selfDrive">Self Drive</option>
+                                    <option value="withDriver">With Driver</option>
+                                    <option value="wedding">Wedding</option>
+                                    <option value="other">Other</option>                              
+                                  </select>
+                              <label>Message</label>
+                              <textarea id="message" name="message" placeholder="Required Fields." style="height:200px"></textarea>
+                              <input type="submit" value="Submit">
+                              <input type="reset" value="Reset">
+                        </form>
+                        </div>
+
+                          
                     </div>
                 </div>
             </div>
