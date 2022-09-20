@@ -277,7 +277,7 @@ color:white;
     <form method="POST">
     <div class="box">
        <div class="imgBx">
-            <img src="images/<?php echo $result['CAR_IMG']?>">
+            <img src="img/<?php echo $result['CAR_IMG']?>">
         </div>
         <div class="content">
             <?php $res=$result['CAR_ID'];?>
